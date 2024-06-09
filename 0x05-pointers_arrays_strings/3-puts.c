@@ -5,11 +5,12 @@
  * Return: nothing
  */
 void _puts(char *str)
+/*prints a string followed by a new line to stdout*/
 {
-while(*str != '\0')
+while (*str != '\0')
 {
-        _putchar(*str++);
+_putchar(*str++);
 }
-        _putchar('\n');
+_putchar('\n');
 }
 
