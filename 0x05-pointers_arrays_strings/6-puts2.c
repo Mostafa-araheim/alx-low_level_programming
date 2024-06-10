@@ -15,7 +15,7 @@ i++;
 }
 for (index = 0; index < i; index += 2)
 {
-printf("%c" ,s[index]);
+_putchar(s[index]);
 }
 _putchar('\n'); 
 }
