@@ -14,7 +14,7 @@ while (s[c] != '\0')
 {
 c++;
 }
-while (i <= c/2)
+while (i < c/2)
 {
 temp = s[i];
 s[i] = s[c-i-1];
