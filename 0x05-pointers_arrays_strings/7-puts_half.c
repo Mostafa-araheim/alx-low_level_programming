@@ -7,7 +7,7 @@
 void puts_half(char *s)
 {
 int i = 0, k;
-while (s[i++])
+while (s[i] != '\0')
 {
 i++;
 }
@@ -15,12 +15,12 @@ if (i % 2 == 0)
 {
 k = i / 2;
 }
-else 
+else
 {
 k = (i - 1) / 2;
 k = k + 1;
 }
-for (; k < i ; k++)
+for (; k < i; k++)
 {
 _putchar(s[k]);
 }
