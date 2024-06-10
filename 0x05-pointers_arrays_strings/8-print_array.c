@@ -2,12 +2,12 @@
 #include <stdio.h>
 /**
  * print_array - prints an array from the required index
- * separated by , 
+ * separated by ,
  * @a: array pointer
  * @n: the ending index
  * Return: nothing
  */
-void print_array(int *a ,int n)
+void print_array(int *a, int n)
 {
 int i = 0;
 for (; i < n ; i++)
