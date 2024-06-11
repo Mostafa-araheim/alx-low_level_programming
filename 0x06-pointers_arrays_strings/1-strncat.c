@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * _strncat - this function concatenates 2 strings to n index of the second strings
+ * _strncat - this function concatenates 2 strings 
+ * to n index of the second strings
  * @dest: pointer to the destination of the resultant strings
  * @src: the string to be concatenated
  * @n: the number of indices
@@ -13,9 +14,11 @@ while (dest[i] != '\0')
 {
 i++;
 }
-for (; src[j] != '\0' && j < n; j++, i++)
+while (src[j] != '\0' && j < n)
 {
 dest[i] = src[j];
+i++;
+j++;
 }
 dest[i + j] = '\0';
 return (dest);
