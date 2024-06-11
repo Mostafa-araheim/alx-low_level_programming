@@ -4,11 +4,11 @@
  * _strcat - this function concatenates 2 strings
  * @dest: the string to be returned
  * @src: the string to be concatenated
- * Return; the concatenated string
+ * Return: the concatenated string
  */
 char *_strcat(char *dest, char *src)
 {
-int n = 0, m  = 0;
+int n = 0, m = 0;
 while (dest[n] != '\0')
 {
 n++;
